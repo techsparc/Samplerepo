@@ -51,7 +51,7 @@ public class DuplicateArray {
                 for (int j = 2; j <= number[i] /2; j++) {
                     if (number[i] % j == 0) {
                         isPrime = false;
-                        break;
+                        //break;
                     }
                 }
                 if(isPrime) {
